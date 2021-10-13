@@ -1,12 +1,7 @@
-public class Apple extends Fruit
+public class Apple extends  Fruit
 {
-    public float getWeight() {
-        return weight;
+    public Apple()
+    {
+        weight = 1.0f;
     }
-
-    public void setWeight(float weight) {
-        this.weight = weight;
-    }
-
-    float weight = 1.0f;
 }
