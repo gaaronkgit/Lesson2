@@ -1,12 +1,7 @@
 public class Orange extends Fruit
 {
-    public float getWeight() {
-        return weight;
+    public Orange()
+    {
+        weight = 1.5f;
     }
-
-    public void setWeight(float weight) {
-        this.weight = weight;
-    }
-
-    float weight = 1.5f;
 }
